@@ -102,9 +102,9 @@ setup(
 #     package_data={
 #         'sample': ['package_data.dat'],
 #     },
-#     package_data={
-#         'image_process': ['image_process.py', '__init__.py'],
-#     },
+    package_data={
+        'image_process': ['image_process.py', '__init__.py'],
+    },
     
 # 
 #     # Although 'package_data' is the preferred approach, in some case you may
