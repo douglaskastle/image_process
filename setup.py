@@ -118,7 +118,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'sample=sample:main',
+            'image_process=image_process:process_image',
         ],
     },
 )

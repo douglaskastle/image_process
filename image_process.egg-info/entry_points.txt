@@ -1,0 +1,3 @@
+[console_scripts]
+image_process = image_process:process_image
+
