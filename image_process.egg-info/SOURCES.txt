@@ -1,4 +1,5 @@
 MANIFEST.in
+setup.cfg
 setup.py
 image_process.egg-info/PKG-INFO
 image_process.egg-info/SOURCES.txt
