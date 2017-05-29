@@ -74,8 +74,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    #packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    packages=find_packages(),
+    packages=['image_process'],
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
@@ -102,10 +101,10 @@ setup(
 #     package_data={
 #         'sample': ['package_data.dat'],
 #     },
-    package_data={
-        'image_process': ['image_process.py', '__init__.py'],
-    },
-    
+#     package_data={
+#         'image_process': ['image_process.py', '__init__.py'],
+#     },
+#     
 # 
 #     # Although 'package_data' is the preferred approach, in some case you may
 #     # need to place data files outside of your packages. See:
